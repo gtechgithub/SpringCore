@@ -66,6 +66,23 @@ public class AspectExample1 {
 		EmployeeService empservice =  (EmployeeService) context.getBean("empservice");
 		
 		System.out.println("Employee details:" + empservice.getEmployee());
+
+		System.out.println("Employee name:" + empservice.getEmployee().getName());
+
 	}
 	
 }
+
+
+/*********** OUTOUT *********************
+
+
+executing advice for all Service method getter called
+executing get name inclass com.javapoint.Employee
+Employee details:no:1 name:name1
+executing advice for all Service method getter called
+executing advice on get name
+executing get name inclass com.javapoint.Employee
+Employee name:name1
+
+***********************************************/
