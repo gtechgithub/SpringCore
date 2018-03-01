@@ -1,0 +1,17 @@
+Spring bean life cycle
+------------------------
+
+1)
+By implementing DisposableBean and InitializingBean one can override destroy Method and afterPropertiesSet method 
+for pre destory and post initialization.
+
+Interface (InitializingBean)               Method(destory)                        function(pre destroy)
+Interface (DisposableBean)                 Method(afterPropertiesSet)             function(post initialization)
+
+2) second method we can configure through bean by providing init-method and destory-method in the bean configuration xml file.
+
+3) Thirdly, spring framework support @PostConstruct and @PreDestroy Annotation to accomplish these goals.
+
+ 
+
+
