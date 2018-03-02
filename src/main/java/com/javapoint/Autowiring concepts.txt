@@ -1,0 +1,37 @@
+Spring AutoWire annotation
+-----------------------------
+
+There are different ways which we can autowire a spring bean.
+
+a. autowire byName:
+	
+	This type of autowiring, setter method is used for dependency injection, variable name in the class
+	should be same as the name in the spring bean configuration file.
+	
+b. autowire byType:
+     	
+	This this kind of autowiring, class type is used, so there will be one bean configured for this type in the
+    Spring bean configuration file.
+
+c. autowire by Constructor:
+    this is similar to the autowire by type only difference is that constructor is used to inject the dependency.
+
+d. @Autowired Annotation:
+	we can use @Autowired annotation for spring bean autowiring.
+	
+	i) @Autowired annotation can be applied to variables and methods for autowiring byType.
+	   
+	ii) @Autowired annotation can be applied for constructor too.
+	
+	for @AutoWired annotation to work we must declare <context:annotation-config/> inside spring configuration file.
+
+	
+
+e. @Qualifier Annotation:
+
+    let's say we have multiple beans for same type in the spring configuration file, then to avoid the conflicts,
+	we need to provide this @Qualifier for the corrosponding bean name which will be autowired.
+	
+	
+By default spring bean autowiring is turned off. Spring bean autowire default value is “default” that means no autowiring is to be performed. autowire value “no” also have the same behavior.
+	
