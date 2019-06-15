@@ -1,0 +1,8 @@
+a) in the xml file ensure constructor-arg is mentioned  with ref as the student bean
+
+b) in the class where student bean in injected namely "StudentService", ensure the parameterized constructor is 
+   created.
+   
+
+
+
