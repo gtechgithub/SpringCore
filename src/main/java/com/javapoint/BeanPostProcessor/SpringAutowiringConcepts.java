@@ -8,7 +8,7 @@ public class SpringAutowiringConcepts {
 
 	public static void main(String args[]) {
 
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext("SpringAutowiringConceptsByName.xml");
+		AbstractApplicationContext context = new ClassPathXmlApplicationContext("SpringAutowiringConceptsPostProc.xml");
 		StudentService studentService = (StudentService) context.getBean("studentService");
 		System.out.println("student:" + studentService.getStudent());
 		context.registerShutdownHook();
