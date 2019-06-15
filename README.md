@@ -9,6 +9,7 @@ https://github.com/gtechgithub/SpringCore/blob/master/src/main/java/com/javapoin
 
 Autowiring concepts:
 https://github.com/gtechgithub/SpringCore/blob/master/src/main/java/com/javapoint/autowire_byName/autowire_byName.txt
+https://github.com/gtechgithub/SpringCore/blob/master/src/main/java/com/javapoint/autowire_byConstructor/autowire_byCons.txt
 https://github.com/gtechgithub/SpringCore/blob/master/src/main/java/com/javapoint/Autowiring%20concepts.txt
 
 Spring bean life cycle conceptes:
