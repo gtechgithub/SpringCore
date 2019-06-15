@@ -12,3 +12,14 @@ public class SpringAutowiringConcepts {
 		System.out.println("student:" + studentService.getStudent());
 	}
 }
+
+
+/********** OUTPUT ***********************/
+
+
+
+This is autowiring by construtor
+student:no:1 name:gopal
+
+
+/********** OUTPUT ***********************/
