@@ -3,6 +3,9 @@ Spring AutoWire annotation
 
 There are different ways which we can autowire a spring bean.
 
+Spring first tries to wire using autowire by constructor, if it does not work, Spring tries to autowire by byType.
+
+
 a. autowire byName:
 	
 	This type of autowiring, setter method is used for dependency injection, variable name in the class
