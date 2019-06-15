@@ -1,0 +1,4 @@
+a) ensure that @Autowired is added for the injected variable
+
+b) ensure Qualifier value matches with the name in the sprint application context xml file
+
