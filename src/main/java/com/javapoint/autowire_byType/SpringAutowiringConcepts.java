@@ -7,7 +7,7 @@ public class SpringAutowiringConcepts {
 
 	public static void main(String args[]) {
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("SpringAutowiringConceptsByName.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringAutowiringConceptsByType.xml");
 		StudentService studentService = (StudentService) context.getBean("studentService");
 		System.out.println("student:" + studentService.getStudent());
 	}
