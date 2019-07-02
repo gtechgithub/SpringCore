@@ -22,3 +22,18 @@ public class StudentController {
 
 	}
 }
+
+/**************** OUTPUT ***********************
+
+http://localhost:9090/getStudent
+
+
+Response Body:
+{
+    "no": 10000,
+    "name": "this is for test"
+}
+
+
+**************** OUTPUT ***********************/
+
