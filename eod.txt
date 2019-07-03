@@ -1,0 +1,20 @@
+use of ApplicationContextAware interface
+----------------------------------------
+
+implememt this interface, if you are willing to collaborate with bean lookup process.
+
+a) if an object needs access to file resources
+
+b) wants to call getResource
+
+c) want to publish an event
+
+d) requeries an access to the message source.
+
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationContextAware.html
+ 
+
+
+
+	
+
