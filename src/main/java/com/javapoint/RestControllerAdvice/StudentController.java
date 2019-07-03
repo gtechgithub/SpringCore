@@ -27,3 +27,23 @@ public class StudentController {
 
 	}
 }
+
+
+/**************************** OUTPUT *******************
+
+GET http://localhost:9090/getStudentException
+
+Status 404 Not Found
+
+Body
+
+{
+    "errorMessage": "Stundent is not found, throwing exception",
+    "errorCode": "001"
+}
+
+
+
+
+
+********************************************************/
