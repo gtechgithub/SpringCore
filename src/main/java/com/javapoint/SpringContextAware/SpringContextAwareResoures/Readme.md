@@ -1,4 +1,4 @@
-# Appication Context Aware get recouces.
+# Appication Context Aware get resources.
 
 This is an simple example to implement ApplicationContextAware and with that context get the 
 resource namely a XML file in the class path and finally read the xml file using JAXB unmarsherller.
