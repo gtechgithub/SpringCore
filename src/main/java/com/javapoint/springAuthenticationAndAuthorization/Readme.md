@@ -15,19 +15,19 @@ rest endpoints
 
 
 ```
-                                                              (1) POST /oauth/token 
-Resource Owner --------------------->  Oauth2 Client         -------------------------->   Authorization Server 
-                                              |
-               <---------------------         |                <---------------------    
-                                              |                 (2) Access Token
-                                              |
-                                              |
-                                              |
-                                              |                (3) Get /secured/company ( API resource) 
-                                                   --------------------------------------------> Resource Server
+                                                       (1) POST /oauth/token 
+Resource Owner --------------------->  Oauth2 Client  -------------------------->   Authorization Server 
+                                        |
+               <---------------------   |             <---------------------    
+                                        |               (2) Access Token
+                                        |
+                                        |
+                                        |
+                                        |               (3) Get /secured/company ( API resource) 
+                                          --------------------------------------------> Resource Server
                                               
                                               
-                                                   <---------------------------------------------
+                                         <---------------------------------------------
                                                                 (4) Secured resource 
                                                                 
 ```
