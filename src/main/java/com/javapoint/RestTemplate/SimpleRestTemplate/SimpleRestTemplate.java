@@ -2,22 +2,20 @@ how do we call the other system uri using rest template
 -------------------------------------------------------
 
 		String apiUrl = "http://10.10.10.20:9999/api/v1/client/{id/details/";
-        String outputInJson = "";
-        MultiValueMap<String, String> inputMap = new LinkedMultiValueMap<>();
-		HttpHeaders headers = new HttpHeaders();
-		Map<String, String> pathVariables = new HashMap<String, String>();
+        	String outputInJson = "";
 		
 		//set path variables first 
+		Map<String, String> pathVariables = new HashMap<String, String>();
 		pathVariables.put("id", "1234");
 
 		//set headers
+		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("clientId", "myproj");
+        	headers.add("clientId", "myproj");
 		
 		//set queryparams
-		inputMap.add(id, "1000");
-		
-		
+        	MultiValueMap<String, String> inputMap = new LinkedMultiValueMap<>();
+		inputMap.add("name", "myName");	
 		
 		
 		HttpEntity<MultiValueMap<String, String>> requestEntity = new HttpEntity<>(inputMap, headers);
